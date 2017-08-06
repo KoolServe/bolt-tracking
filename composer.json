@@ -1,0 +1,33 @@
+{
+    "name": "koolserve/tracking",
+    "description": "Correctly load tracking scripts and get maxium points on Goolge Pagespeed",
+    "type": "bolt-extension",
+    "keywords": [
+        "Google Analytics",
+        "Tracking",
+        "Site ",
+        "SEO"
+    ],
+    "require": {
+        "bolt/bolt": "^3.2"
+    },
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Chris Hilsdon",
+            "email": "chris@koolserve.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Bolt\\Extension\\Koolserve\\Tracking\\": "src"
+        }
+    },
+    "extra": {
+        "bolt-assets": "web",
+        "bolt-class": "Bolt\\Extension\\Koolserve\\Tracking\\TrackingExtension",
+        "bolt-icon": "icon.png"
+    }
+}
